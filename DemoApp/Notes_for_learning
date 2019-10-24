@@ -1,0 +1,6 @@
+1. When setting up the server using IIS I had to make sure that WAS and World Wide Publishing Service were both turned on and running. This can be done rom teh search bar and 'turn windows features on or off'
+2. Even once this is done, an error can occur relating to permissions. To avoid this, in IIS, you have to go to the basic settings and ake sure your user is allocated as the specific user (with machine account username and password)
+
+About AngularJs:
+- Controllers and Scope: Controllers primary resp is to create the scope object
+- The scope is not the model - the data on the scope is the model

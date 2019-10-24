@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\AndyTL\.Rider2018.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\.Rider2018.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\AndyTL\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_DemoApp.719087084.00" t="ExcludeRecursive" />
+    <e p="C:\Users\AndyTL\Documents\Personal\Pluralsight_apps\angularjs_fundamentals\DemoApp" t="IncludeFlat" />
+  </component>
+</project>
