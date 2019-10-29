@@ -4,3 +4,32 @@
 About AngularJs:
 - Controllers and Scope: Controllers primary resp is to create the scope object
 - The scope is not the model - the data on the scope is the model
+
+Directives basically teach HTML new tricks
+Directives can be written out as tags, attributes and as classes:
+<ng-form />
+<div ng-form />
+<div class="ng-form" />
+
+Never manipulate the DOM from within a controller (ie using jquery in the controller to hide something or show something. This should always be done using directives and binding
+
+Ngcloak - angular will hide portions of your page until certain things have had a chance to run
+- this helps us avoid a flash of unbound HTML
+
+Using ng-form you can have nested forms
+
+Angular Filters: modifying output, formatting, sorting data, filtering data. example: {{ expression | filter}}
+ - built in filters include: uppercase, time, numbers, lowercase, date, currency, json, some ng-repeats(orderby, limitTo, filter)
+ 
+ Writing custom filters: take an existing module and call the filter function on it:
+  module.filter('name', function() {
+    return function(inout /*, filter parameters */) {
+       // modify input
+       return modifiedOutput
+    }
+  });
+  
+  
+ Two Way Binding:
+ Using ngModel directive.: input, select, textarea
+ 
